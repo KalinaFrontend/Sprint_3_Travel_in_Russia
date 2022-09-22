@@ -1,0 +1,40 @@
+.cover__link {
+  margin: 0 auto 0;
+  max-width: 100%;
+  min-height: 740px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image:
+  linear-gradient(rgba(42, 44, 47, 0.3),
+  rgba(42, 44, 47, 0.3)),
+  url(../../../images/cover__background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+@media screen and (max-width: 1083px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
+
+
+.cover__link:hover {
+  opacity: .8;
+}

@@ -1,0 +1,16 @@
+.place__link {
+  display: block;
+  margin-top: 12px;
+  color: #fff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.12rem;
+  line-height: 1.22;
+}
+
+@media screen and (max-width: 631px) {
+  .place__link {
+    padding: 0 16px 0;
+  }
+}
