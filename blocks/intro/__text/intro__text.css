@@ -1,8 +1,8 @@
 .intro__text {
+  box-sizing: border-box;
   max-width: 690px;
   margin: 40px 0 0;
   color: #fff;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;

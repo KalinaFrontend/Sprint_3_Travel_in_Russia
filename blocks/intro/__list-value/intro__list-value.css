@@ -1,6 +1,6 @@
 .intro__list-value {
+box-sizing: border-box;
   color: #fff;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 0.75rem;

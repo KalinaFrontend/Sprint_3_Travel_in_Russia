@@ -4,12 +4,13 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-row: auto;
-  gap: 80px;
+  gap: 73px;
 }
 
 @media screen and (max-width: 1083px) {
   .places {
     margin: 92px 48px 0;
+    gap: 80px;
   }
 }
 
@@ -25,5 +26,6 @@
   .places {
     margin-top: 64px;
     padding: 0;
+    gap: 50px;
   }
 }

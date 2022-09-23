@@ -15,15 +15,24 @@
 
 @media screen and (max-width: 979px) {
   .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     margin: 88px 24px 0;
     gap: 16px;
   }
 }
 
+
+
 @media screen and (max-width: 631px) {
   .photo-grid {
-    grid-template-columns: minmax(284px, 1fr);
     margin: 64px 16px 0;
     gap: 12px;
   }
+}
+
+@media screen and (max-width: 612px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
 }
