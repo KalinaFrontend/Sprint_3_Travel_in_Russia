@@ -12,10 +12,15 @@
   }
 }
 
-
 @media screen and (max-width: 520px) {
   .cover {
-    max-width: 320px;
+    max-width: 420px;
     margin-top: 66px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover {
+    max-width: 320px;
   }
 }
