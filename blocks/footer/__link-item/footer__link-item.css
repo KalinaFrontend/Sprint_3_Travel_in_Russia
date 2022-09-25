@@ -5,11 +5,11 @@
 
 @media screen and (max-width: 631px) {
   .footer__link-item {
-    margin: 0 0 32px;
+    margin-bottom: 32px;
     padding: 0;
   }
 
   .footer__link-item:last-child {
-    margin: 0;
+    margin-bottom: 0;
   }
 }

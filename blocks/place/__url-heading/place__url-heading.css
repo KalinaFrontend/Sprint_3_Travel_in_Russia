@@ -1,5 +1,6 @@
 .place__url-heading {
   box-sizing: border-box;
+  padding-bottom: 12px;
   margin: 0;
   color: #AAA;
   font-style: normal;
@@ -10,6 +11,7 @@
 
 @media screen and (max-width: 631px) {
   .place__url-heading {
-    padding: 0 16px 12px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
