@@ -10,4 +10,4 @@
 * подключить другие шрифты;
 * проверить код на кроссбраузерность и дописать все вендорные префиксы.
 
-Проект размещён по ссылке - https://kalinafrontend.github.io/Sprint_3_Travel_in_Russia/
+Проект размещён по ссылке - [https://kalinafrontend.github.io/Sprint_3_Travel_in_Russia/](https://kalinafrontend.github.io/Travel-in-Russia/)https://kalinafrontend.github.io/Travel-in-Russia/
